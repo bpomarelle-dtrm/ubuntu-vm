@@ -8,6 +8,7 @@ Ubuntu-vm is a set of scripts that intends to provide a complete, work-ready ubu
 ### 2.1 - Download Ubuntu
 ### 2.2 - Install
 ### 2.3 - boot the virtual machine and check if it's working properly
+### 2.4 - go to Parametres > devices and clic the add button. share your workspace folder
 
 ## 3 - Optimisation of the VM
 ### 3.1 Shutdown the VM, go to "Parametres" in virtualbox
@@ -16,4 +17,3 @@ Ubuntu-vm is a set of scripts that intends to provide a complete, work-ready ubu
 
 
 ## 4 - software installation
-sudo apt-get install htop

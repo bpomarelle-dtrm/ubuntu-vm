@@ -1,5 +1,7 @@
 #add repo for atom
-sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get -y install wget
+wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
 sudo apt-get update
 
 # Install basic env and dev tools

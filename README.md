@@ -3,6 +3,15 @@
 Ubuntu-vm is a set of scripts that intends to provide a complete, work-ready ubuntu vm
 
 ## 1- Install Virtualbox and the extention pack
+Follow this officialy link [VirtualBox](https://www.virtualbox.org/wiki/Downloads) to download Virtualbox and the extension pack.
+
+Be careful to install the same version of Virtualbox software and the extension pack. Actually the version is "6.0.14".
+
+To install VirtualBox for windows, click to *Windows hosts* below `VirtualBox {version} platform packages`.
+
+To install the extension pack, click to *All supported platforms* below `VirtualBox {version} Oracle VM VirtualBox Extension Pack`
+
+
 
 ## 2 - Create the Virtual machine
 ### 2.1 - Download Ubuntu
@@ -11,7 +20,24 @@ To download Ubuntu, follow one of this links
 - [Ubuntu 19.10](https://ubuntu.com/download/desktop/thank-you/?version=19.10&architecture=amd64)
 
 ### 2.2 - Install
-### 2.3 - boot the virtual machine and check if it's working properly
+#### Creation of your new machine
+- Create a **new machine** and choose the name that you want
+- Choose the **RAM allocation** that you want. If this vm is your environment work, move the cursor to the end of range :).
+- Create **virtual hard drive** and choose **VDI type** that will be **dynamically allocated**.
+- Then, choose the **hard drive size**. It's recommended to choose to have a lot of space if this vm is your environment work.
+<br>=> The new machine is created!
+
+#### Installation of Ubuntu
+- Right-click on your machine and choose **normal boot**
+- Insert your **Ubuntu ISO** that you downloaded (something like `ubuntu-19.10-desktop-amd64.iso`)
+- Follow instructions => The installation must be very simple, because we have an hard drive. Just warning for the definition of password because the keyboard is "qwerty mode".
+- At the end of installation, Ubuntu will ask that you press a touch to restart.
+<br>=> Congratulations! Ubuntu is set up.
+
+
+### 2.3 - Boot the virtual machine and check if it works properly
+
+
 ### 2.4 - go to Parametres > devices and clic the add button. share your workspace folder
 
 ## 3 - Optimisation of the VM

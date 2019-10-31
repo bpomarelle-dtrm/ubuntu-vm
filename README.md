@@ -41,22 +41,22 @@ To download Ubuntu, follow one of those links, depending on the Ubuntu version y
 ### 2.3 - Boot the virtual machine and check if it works properly
 
 ## 3 - Optimisation of the VM
-Open the configuration panel of your vm while it's down.
+Open the **configuration panel** of your virtual machine while it's down.
 ### 3.1 Configure cpu
-Go to system>cpu, set number of cpu to 2
+Go to **system>cpu**, set number of cpu to 2.
 ### 3.2 Configure Screens
-Go to dysplay>screen, then:
+Go to **dysplay>screen**, then:
 - Set **video memory** to the max (usually 128Mb)
 - Set the **number of screens** to what you want (at least 2)
 - Set yout **graphic controller** to VBoxSGVA
 
 ### 3.3 Port forwarding
-Go to network>Interface1>"Avancé">port forwarding.
+Go to **network>Interface1>"Avancé">port forwarding**.
 - Set your vagrant http port forwarding: 192.168.10.10:80 -> 192.168.10.10:80
 - Set your vagrant https port forwarding: 192.168.10.10:443 -> 192.168.10.10:443
 
 ### 3.4 Share folders
-Go to shared folders>add a shared folder
+Go to **shared folders>add a shared folder**.
 - Set folder path to *your_fullCore_path*
 - Set folder name to "fullCore"
 - Set automatic mount to true

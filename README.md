@@ -6,6 +6,10 @@ Ubuntu-vm is a set of scripts that intends to provide a complete, work-ready ubu
 
 ## 2 - Create the Virtual machine
 ### 2.1 - Download Ubuntu
+To download Ubuntu, follow one of this links 
+- [Ubuntu 18.04 LTS](https://ubuntu.com/download/desktop/thank-you?country=&version=18.04.3&architecture=amd64)
+- [Ubuntu 19.10](https://ubuntu.com/download/desktop/thank-you/?version=19.10&architecture=amd64)
+
 ### 2.2 - Install
 ### 2.3 - boot the virtual machine and check if it's working properly
 ### 2.4 - go to Parametres > devices and clic the add button. share your workspace folder

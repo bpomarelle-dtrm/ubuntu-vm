@@ -1,5 +1,5 @@
 # install the import binaries
-sudo apt-get install -y git git-flow curl vim
+sudo apt-get install -y git git-flow
 
 # add repo for atom
 sudo apt-get -y install wget
@@ -8,14 +8,13 @@ sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ 
 sudo apt-get update
 
 # install basic env and dev tools
-
-sudo apt-get  --assume-yes install htop zsh rxvt-unicode terminator
-sudo apt-get  --assume-yes install git git-flow subversion
-sudo apt-get  --assume-yes install curl
-sudo apt-get  --assume-yes install vim nano atom
+sudo apt-get --assume-yes install htop zsh rxvt-unicode terminator
+sudo apt-get --assume-yes install git git-flow subversion
+sudo apt-get --assume-yes install curl
+sudo apt-get --assume-yes install vim nano atom
 
 # install of phpstorm
-sudo apt-get  --assume-yes install snapd snapd-xdg-open
+sudo apt-get --assume-yes install snapd snapd-xdg-open
 sudo snap install phpstorm --classic
 
 # libreoffice
@@ -25,7 +24,7 @@ sudo snap install phpstorm --classic
 
 #___________________________________________________
 #
-#Configure dev env
+# Configure dev env
 #___________________________________________________
 
 mkdir ~/workspace_shared

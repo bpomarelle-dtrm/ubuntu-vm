@@ -1,3 +1,6 @@
+# Proper support for html5 Video
+sudo apt install ffmpeg
+
 # add repo for atom
 sudo apt-get -y install wget
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
@@ -23,7 +26,7 @@ sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
-#use " disco " if " eoan " (19.10) doesn't work 
+#use " disco " if " eoan " (19.10) doesn't work
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io

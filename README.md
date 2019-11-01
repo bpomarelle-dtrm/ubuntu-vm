@@ -36,6 +36,8 @@ To download Ubuntu, follow one of this links
 
 
 ### 2.3 - Boot the virtual machine and check if it works properly
+- Installing basics is mandatory : `./basics.sh`
+- `zsh.sh` : Install ZSH, OhMyZSH et ZSH auto-suggestions
 
 
 ### 2.4 - go to Parametres > devices and clic the add button. share your workspace folder
@@ -66,14 +68,5 @@ git config --global user.name "Your Name"
 
 ### Set up ZSH (not necessary)
 ```bash
-sudo apt-get install -y zsh
-
-# Oh my ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# ZSH auto-suggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+./zsh.sh
 ```

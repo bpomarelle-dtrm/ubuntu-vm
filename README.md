@@ -67,8 +67,10 @@ Go to **shared folders>add a shared folder**.
 - Set permanent configuration to true
 
 ## 4 - software installation
-### Explications of ssh files
+### Explications of files
 - Installing basics is mandatory : `./basics.sh`
+
+- `.bash_aliases` : Bash aliases that can be useful
 - `zsh.sh` : Install ZSH, OhMyZSH et ZSH auto-suggestions
 - `add-vhosts.sh` : Add " determine vhosts "
 - `atom.sh` : Install atom editor

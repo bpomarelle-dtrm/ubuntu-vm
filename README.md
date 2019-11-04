@@ -42,15 +42,6 @@ To download Ubuntu, follow one of those links, depending on the Ubuntu version y
 
 
 ### 2.3 - Boot the virtual machine and check if it works properly
-- Installing basics is mandatory : `./basics.sh`
-- `zsh.sh` : Install ZSH, OhMyZSH et ZSH auto-suggestions
-- `add-vhosts.sh` : Add " determine vhosts "
-- `atom.sh` : Install atom editor
-- `docker.sh` : Install docker and docker-compose
-- `i3.sh` : Install the window manager " i3 "
-- `libreoffice.sh` : Install the office suite " libreoffice "
-- `phpstorm.sh` : Install PHPStorm IDE
-- `vagrant.sh` : Install vagrant
 
 ## 3 - Optimisation of the VM
 Open the **configuration panel** of your virtual machine while it's down.
@@ -76,6 +67,17 @@ Go to **shared folders>add a shared folder**.
 - Set permanent configuration to true
 
 ## 4 - software installation
+### Explications of ssh files
+- Installing basics is mandatory : `./basics.sh`
+- `zsh.sh` : Install ZSH, OhMyZSH et ZSH auto-suggestions
+- `add-vhosts.sh` : Add " determine vhosts "
+- `atom.sh` : Install atom editor
+- `docker.sh` : Install docker and docker-compose
+- `i3.sh` : Install the window manager " i3 "
+- `libreoffice.sh` : Install the office suite " libreoffice "
+- `phpstorm.sh` : Install PHPStorm IDE
+- `vagrant.sh` : Install vagrant
+
 ### Set up SSH keys
 ```bash
 ssh-keygen -t rsa -b 4096 -C "<your-mail>@determine.com"
@@ -91,9 +93,4 @@ cat ~/.ssh/id_rsa.pub
 ```bash
 git config --global user.email "<your-mail>@determine.com"
 git config --global user.name "Your Name"
-```
-
-### Set up ZSH (not necessary)
-```bash
-./zsh.sh
 ```

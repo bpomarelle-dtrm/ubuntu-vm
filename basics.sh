@@ -4,7 +4,7 @@ sudo apt install ffmpeg
 # install basic env and dev tools
 sudo apt -y install wget htop rxvt-unicode terminator \
 git git-flow subversion \
-curl vim nano
+curl vim nano tree
 
 # mount the windows folder in linux
 mkdir ~/workspace_shared

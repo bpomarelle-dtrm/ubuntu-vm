@@ -1,8 +1,11 @@
-# install basic env and dev tools
-sudo apt-get -y install wget htop zsh rxvt-unicode terminator \
-git git-flow subversion \
-install curl nano vim 
+# proper support for html5 Video
+sudo apt install ffmpeg
 
-# add shared workspace
+# install basic env and dev tools
+sudo apt-get -y install wget htop rxvt-unicode terminator \
+git git-flow subversion \
+curl vim nano
+
+# mount the windows folder in linux
 mkdir ~/workspace_shared
 sudo mount -t vboxfs -o uid=$UID,gid=$(id -g) workspace ~/workspace_shared

@@ -22,9 +22,7 @@ To download Ubuntu, follow one of those links, depending on the Ubuntu version y
 
 ### 2.2 - Install
 
-<div class="alert alert-success">
-If you're familiar with Virtualbox, you can pass 2.2. section
-</div>
+**If you're familiar with Virtualbox, you can pass 2.2. section**
 
 #### Creation of your new machine
 - Create a **new machine** and choose the name that you want

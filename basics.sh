@@ -2,7 +2,7 @@
 sudo apt install ffmpeg
 
 # install basic env and dev tools
-sudo apt-get -y install wget htop rxvt-unicode terminator \
+sudo apt -y install wget htop rxvt-unicode terminator \
 git git-flow subversion \
 curl vim nano
 

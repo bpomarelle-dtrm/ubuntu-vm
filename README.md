@@ -21,6 +21,11 @@ To download Ubuntu, follow one of those links, depending on the Ubuntu version y
 - [Ubuntu 19.10](https://ubuntu.com/download/desktop/thank-you/?version=19.10&architecture=amd64)
 
 ### 2.2 - Install
+
+<div class="alert alert-success">
+If you're familiar with Virtualbox, you can pass 2.2. section
+</div>
+
 #### Creation of your new machine
 - Create a **new machine** and choose the name that you want
 - Choose the **RAM allocation** that you want. If this vm is your environment work, move the cursor to the end of range :). 8Gb (8192Mo) should do the trick.

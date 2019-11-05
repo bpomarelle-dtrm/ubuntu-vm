@@ -28,7 +28,13 @@ To download Ubuntu, follow one of those links, depending on the Ubuntu version y
 - Create a **new machine** and choose the name that you want
 - Choose the **RAM allocation** that you want. If this vm is your environment work, move the cursor to the end of range :). 8Gb (8192Mo) should do the trick.
 - Create **virtual hard drive** and choose **VDI type** that will be **dynamically allocated**.
-- Then, choose the **hard drive size**. Ensure to set sufficient storage space depending on your usage.
+- Then, choose the **hard drive size**. Ensure to set sufficient storage space depending on your usage. <br>
+If later you want change the hard drive size, you must execute this command on Windows : 
+```bash
+cd "c:\Program Files\Oracle\VirtualBox"
+
+VBoxManage modifyhd "C:\Users\pfarrugia\VirtualBox VMs\Ubuntu\Ubuntu.vdi" --resize 81920
+```
 <br>=> The new machine is created!
 
 #### Installation of Ubuntu
